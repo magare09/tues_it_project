@@ -64,3 +64,38 @@ header {
     bottom: 50%;
     right: 16px;
 }
+
+.product {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+.product .photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product .name {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #333;
+}
+
+.product .price {
+    font-size: 1.2em;
+    color: #e67e22;
+    margin: 10px 0;
+}
+
+.product .description {
+    font-size: 1em;
+    color: #777;
+    margin: 10px 0;
+}
