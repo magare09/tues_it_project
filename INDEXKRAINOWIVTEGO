@@ -21,8 +21,20 @@
         <h1>Welcome to our site!</h1>
         <p>Select one of the optins above.</p>
     </main>
+    <div class="color-change">
+        <h2 class="bottom-right-text">Select background color or theme</h2>
+        <div class="buttons">
+        <button type="button" onclick="Red()" class="red-button">Red</button>
+        <button type="button" onclick="Blue()" class="blue-button">Blue</button>
+        <button type="button" onclick="Dark()" class="dark-button">Dark</button>
+        <button type="button" onclick="Default()" class="default-button">Default</button>
+        
+        </div>
+        </div>
     <footer>
         <p>&copy; 2024 Our Site</p>
     </footer>
+    <script src="colour_changing.js">
+    </script>
 </body>
 </html>

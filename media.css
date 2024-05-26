@@ -142,6 +142,9 @@ h1{
     display:flex;
     gap:1em;
 }
+button:hover{
+    cursor:pointer;
+}
 .red-button{
   background-color: red;
   border-width: 2px;

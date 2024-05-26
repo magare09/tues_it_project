@@ -10,7 +10,7 @@
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Begining</a></li>
+                <li><a href="index.html">Beginning</a></li>
                 <li><a href="about.html">About us</a></li>
                 <li><a href="media.html">Media</a></li>
                 <li><a href="shop.html"><img src="https://as1.ftcdn.net/v2/jpg/02/04/95/36/1000_F_204953687_77A6a5w97NUAyUmJwQ1IbKab8nQQD8FB.jpg" style="width:24px; height:24px;"></a></li>
@@ -28,8 +28,20 @@
             
         </ul>
     </main>
+    <div class="color-change">
+        <h2 class="bottom-right-text">Select background color or theme</h2>
+        <div class="buttons">
+        <button type="button" onclick="Red()" class="red-button">Red</button>
+        <button type="button" onclick="Blue()" class="blue-button">Blue</button>
+        <button type="button" onclick="Dark()" class="dark-button">Dark</button>
+        <button type="button" onclick="Default()" class="default-button">Default</button>
+        
+        </div>
+        </div>
     <footer>
         <p>&copy; 2024 Our Site</p>
     </footer>
+    <script src="colour_changing.js">
+    </script>
 </body>
 </html>
