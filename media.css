@@ -107,6 +107,9 @@ img{
   padding:5em;
 
 }
+.pinterest,.instagram,.facebook{
+     background-color: #fff;
+}
 .pinterest{
     align-items: center;
     border-color: black;
