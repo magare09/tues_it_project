@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Begining</a></li>
+                <li><a href="main.html">Main page</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="shop.html"><img src="https://as1.ftcdn.net/v2/jpg/02/04/95/36/1000_F_204953687_77A6a5w97NUAyUmJwQ1IbKab8nQQD8FB.jpg" style="width:24px; height:24px;"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+</head>
+<body>
+    <h1 class="title_media">You can get to know us and contact us here</h1>
+      <section class="contacts">
+        <a  target="_blank" href="https://www.instagram.com/ivcholeshin/">
+        <div class="instagram" >
+          <img src="C:\Users\silvi\OneDrive\Documents\vsshit\it project\1_Instagram_colored_svg_1-256.webp" alt="insatgram_logo">
+          <p class="description">You can follow us on instagram to get to know us</p>
+        </div>
+        </a>
+        <a  target="_blank" href="https://www.facebook.com/justanothermemepage1">
+        <div class="facebook">
+          <img   src="Colored_Facebook3_svg-256.webp" alt="facebook_logo">
+           <p class="description">Follow us on facebook for serious stuff</p>
+        </div>
+        </a>
+        
+      </section>
+      <section class="contacts">
+        <a  target="_blank" href="https://www.pinterest.com/nadirhouari90/">
+      <div class="pinterest">
+      <img   src="5296503_inspiration_pin_pinned_pinterest_social network_icon (1).png" alt="pinterest_logo">
+      <p class="description">Follow us on pinterest for cool stuff</p>
+     </div>
+     </a>
+    </section>
+     <footer>
+        <p>&copy; 2024 Our Site</p>
+    </footer>
+</body>
+</html>
