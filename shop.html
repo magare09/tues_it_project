@@ -1,55 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bg">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="it_project.css">
     <title>Shop</title>
+    <link rel="stylesheet" href="STILIZACIQ.css">
 </head>
 <body>
     <header>
-        <div class="site-name">NAME</div>
         <nav>
-            <ul class="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="shop.html">Shop</a></li>
-                <li><a href="cart.html">Cart</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="about.html"></a>About</li>
-                <li><a href="media.html">Media</a></li>
+            <ul>
+                <li><a href="INDEX.html">Beginning</a></li>
+                <li><a href="MAIN.html">Main page</a></li>
+                <li><a href="ABOUTUS.html">About us</a></li>
+                <li><a href="MEDIA">Media</a></li>
             </ul>
         </nav>
     </header>
-
-<div class="products-container">
+    <main>
+        <h1>Shop</h1>
+        <p>Here you can find some of our products.</p>
+    </main>
+    <div class="products-container">
 <div class="product">
-    <div class="photo"><img src="" alt="p1" style="width:100%;"></div>
+    <div class="photo"><img src="https://www.profi.co.uk/wp-content/uploads/sites/8/2022/01/8a._jd_7r330_ap.jpg" alt="p1" style="width:100%;"></div>
     <br>
-    <div class="name">p1</div>
+    <div class="name">This is the tractor of my grandpa and it is in a very good state. Power – 97 hp (71.4kW); Engine volume - 4480 cm2; Cylinders - 4 pcs.                                
+</div>
     <br>
-    <div class="price">20</div>
+    <div class="price">6000 euros</div>
     <br>
-    <div class="desciption">long sentence</div>
+    <div class="description">Tractor</div>
 </div>
 
 <div class="product">
-    <div class="photo"><img src="" alt="p2" style="width:100%;"></div>
+    <div class="photo"><img src="https://i.ebayimg.com/images/g/eboAAOSwbNdiUelX/s-l1200.webp" style="width:100%;"></div>
     <br>
-    <div class="name">p2</div>
+    <div class="name">Brand	SPARTAN; Number of speeds - 7; Colour Jet Black</div>
     <br>
-    <div class="price">15</div>
+    <div class="price">400 euros</div>
     <br>
-    <div class="desciption">racoon</div>
+    <div class="description">Bike</div>
 </div>
 
 <div class="product">
-    <div class="photo"><img src="" alt="p3" style="width:100%;"></div>
+    <div class="photo"><img src="https://m.media-amazon.com/images/I/41ypdAssIpL._SS400_.jpg" style="width:60%;"></div>
     <br>
-    <div class="name">p3</div>
+    <div class="name">A brand new phone which i haven't opened yet. Brand	Motorola; Operating System Android 11.0; Memory Storage Capacity	64 GB</div>
     <br>
-    <div class="price">134.43</div>
+    <div class="price">150 euros</div>
     <br>
-    <div class="desciption">banana</div>
+    <div class="description">Mobile phone</div>
 </div>
 </div>
 <style>
@@ -80,7 +81,7 @@
         }
 
         .product .name {
-            font-size: 1.5em;
+            font-size: 1.1em;
             margin: 10px 0;
             color: #333;
         }
@@ -88,15 +89,29 @@
         .product .price {
             font-size: 1.2em;
             color: #e67e22;
-            margin: 10px 0;
+            margin: 5px 0;
         }
 
         .product .description {
-            font-size: 1em;
+            font-size: 1.5em;
             color: #777;
-            margin: 10px 0;
+            margin: 10px 10px;
         }
 </style>
-
+<div class="color-change">
+    <h2 class="bottom-right-text">Select background color or theme</h2>
+    <div class="buttons">
+    <button type="button" onclick="Red()" class="red-button">Red</button>
+    <button type="button" onclick="Blue()" class="blue-button">Blue</button>
+    <button type="button" onclick="Dark()" class="dark-button">Dark</button>
+    <button type="button" onclick="Default()" class="default-button">Default</button>
+    
+    </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Our Site</p>
+    </footer>
+    <script src="colour_changing.js">
+    </script>
 </body>
 </html>

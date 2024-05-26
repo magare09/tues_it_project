@@ -31,6 +31,7 @@ main {
     text-align: center;
 }
 
+
 footer {
     background-color: #333;
     color: white;
@@ -40,3 +41,68 @@ footer {
     width: 100%;
     bottom: 0;
 }
+.color-change { 
+    float: right; 
+    margin-top: 10em; 
+    margin-right:2em;
+} 
+.bottom-right-text{
+    text-align: center;
+}
+.buttons{
+    display:flex;
+    gap:1em;
+}
+button:hover{
+    cursor:pointer;
+}
+.red-button{
+  background-color: red;
+  border-width: 2px;
+  border-style:solid;
+  border-color:black;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5em;
+  border-radius:1em;
+    
+}
+.blue-button{
+    background-color: blue;
+    border-width: 2px;
+    border-style:solid;
+    border-color:black;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    border-radius:1em;
+}
+.dark-button{
+  background-color: gray;
+  border-width: 2px;
+  border-style:solid;
+  border-color:black;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5em;
+  border-radius:1em;
+}
+.default-button{
+    background-color: white;
+    border-width: 2px;
+    border-style:solid;
+    border-color:black;
+    color: black;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    border-radius:1em;
+}
+
